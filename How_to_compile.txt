@@ -1,0 +1,10 @@
+The Antuino software uses 128x64 LCD display with KS0108 chipset.
+You have to install the GLCD library by clicking on "sketch" menu and choosing "include library"
+
+IMPORTANT, VERY IMPORTANT:
+We had to reconfigure how the GLCD is connected to the Arduino. So it is different from the that of the standard GLCD library's pin configuration. Our custom configuration of the GLCD pin connection is defined in a file called ks0108_Arduino.h
+
+The libraries are organized as individual folders under an Arduino folder. 
+You have to move ks0108_Arduino.h to the glcd subfolder under the libraries folder of Arduino IDE.
+
+
